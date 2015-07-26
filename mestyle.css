@@ -84,11 +84,18 @@ section > h1 {
   max-width: 500em;
 }
 
+
 @media only screen and (max-width: 500px) {
   .masthead {
     padding: 3em 0;
   }
   .masthead-heading {
+    font-size: 3em;
+  }
+  .content-footer {
+    padding: 3em 0
+  }
+  .content-footer .social {
     font-size: 3em;
   }
 }
